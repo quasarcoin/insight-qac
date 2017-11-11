@@ -12,7 +12,7 @@ var InsightUI = function(options) {
     this.routePrefix = options.routePrefix || '';
 };
 
-InsightUI.dependencies = ['insight-yng-api'];
+InsightUI.dependencies = ['insight-qac-api'];
 
 inherits(InsightUI, BaseService);
 
