@@ -1,10 +1,10 @@
 'use strict';
 var APP_CONFIG = {
-    COINNAME: "YANGCOIN",
-    SYMBOL: "YNG",
-    SYMBOL_M: "mYNG",
+    COINNAME: "QUASAR",
+    SYMBOL: "QAC",
+    SYMBOL_M: "mQAC",
     SYMBOL_BITS: "bits",
-    URL: 'yangcoin',
+    URL: 'quasar',
     SHOWMONEY: true
 };
 var lang = navigator.languages ?
@@ -14,7 +14,7 @@ if (lang == 'ko_KR')
     lang = 'ko';
 else
     lang = 'en';
-console.log(lang);
+
 var defaultLanguage = localStorage.getItem('insight-language' + APP_CONFIG.SYMBOL) || lang;
 var defaultCurrency = localStorage.getItem('insight-currency' + APP_CONFIG.SYMBOL) || APP_CONFIG.SYMBOL;
 
